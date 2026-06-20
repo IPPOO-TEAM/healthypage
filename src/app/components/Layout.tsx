@@ -87,7 +87,7 @@ export default function Layout({ children, activeTab, onTabChange, darkMode, onT
   return (
     <div className="flex flex-col h-full bg-gradient-to-b from-slate-50 via-teal-50/30 to-cyan-50/30 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950 dark:text-slate-100">
       {/* Header */}
-      <header className="bg-gradient-to-r from-teal-700 via-teal-600 to-cyan-600 text-white px-4 py-4 shadow-xl sticky top-0 z-30 backdrop-blur">
+      <header className="bg-gradient-to-r from-teal-700 via-teal-600 to-cyan-600 text-white px-4 pt-[calc(1rem+env(safe-area-inset-top,0px))] pb-4 shadow-xl sticky top-0 z-30 backdrop-blur">
         <div className="flex items-center justify-between max-w-7xl mx-auto">
           <div className="flex items-center gap-3">
             <div className="bg-white rounded-2xl p-1.5 shadow-lg ring-2 ring-white/40 flex items-center justify-center">
