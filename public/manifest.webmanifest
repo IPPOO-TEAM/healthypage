@@ -1,0 +1,27 @@
+{
+  "name": "Healthy Page",
+  "short_name": "Healthy Page",
+  "description": "Plateforme de santé Healthy Page — patients, praticiens et centres.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#0f766e",
+  "lang": "fr",
+  "categories": ["health", "medical", "lifestyle"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='40' fill='%230f172a'/><path d='M96 44c-26 0-44 20-44 44 0 30 44 60 44 60s44-30 44-60c0-24-18-44-44-44z' fill='%23ef4444'/><path d='M88 80h16v40H88z M76 92h40v16H76z' fill='%23fff'/></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='112' fill='%230f172a'/><path d='M256 116c-69 0-117 53-117 117 0 80 117 160 117 160s117-80 117-160c0-64-48-117-117-117z' fill='%23ef4444'/><path d='M232 212h48v88h-48z M204 240h104v32H204z' fill='%23fff'/></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

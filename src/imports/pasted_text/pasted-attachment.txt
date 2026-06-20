@@ -1,0 +1,136 @@
+Direction artistique et charge graphique du site Podcast HEALTHY PAGE
+Approche mobile first, visuels très vifs, identité africaine contemporaine, interface pensée pour capter l’attention dès les premières secondes avec grands titres, icônes colorées, illustrations attractives, boutons très visibles, et des blocs d’images mettant en avant des personnes africaines.
+
+1) Identité visuelle et palette très vive
+Le site adopte une palette énergique et contrastée avec une base claire afin de garder une excellente lisibilité sur mobile. Les couleurs vives servent aux actions, aux catégories et aux repères de navigation.
+
+Couleurs recommandées pour l’interface
+Bleu principal pour la confiance et le médical, par exemple un bleu électrique.
+Rouge pour l’urgence et les alertes utiles, à utiliser en accent.
+Vert pour la prévention, le bien être et les contenus pratiques.
+Orange pour l’énergie, le sport et les tendances.
+Rose pour les contenus famille, maternité et relations.
+Jaune pour les mises en avant, nouveautés, badges et promotions.
+
+Bonnes pratiques d’usage sur mobile
+Une couleur dominante par écran, des accents pour guider l’œil. Des contrastes forts pour les boutons. Une hiérarchie nette entre textes et surfaces colorées.
+
+2) Typographies et grands titres
+Le style repose sur des grands titres très visibles, avec une typographie moderne et ronde pour une impression chaleureuse et accessible.
+
+Recommandations typographiques
+Un titre sans serif puissant et lisible sur petit écran, par exemple Poppins, Montserrat, Manrope, Inter.
+Des titres en très grande taille sur les sections clés, avec un interlignage confortable.
+Des sous titres courts et utiles, orientés action.
+
+Hiérarchie conseillée
+H1 très grand pour la page d’accueil.
+H2 pour les rubriques principales.
+H3 pour les cartes épisodes et intervenants.
+
+3) Iconographie colorée et illustrations attractives
+Les icônes deviennent un langage à part entière, avec une cohérence graphique forte. Les catégories utilisent des icônes colorées en aplat, accompagnées de badges et de fonds illustrés.
+
+Style recommandé
+Icônes en style flat ou semi flat, épaisseur cohérente, couleurs franches.
+Illustrations éditoriales pour renforcer l’identité, notamment sur la santé mentale, la nutrition et la maternité.
+Pictogrammes animés légers pour le lecteur audio et les actions favorites, téléchargement, partage.
+
+4) Composants UI très visibles et très vifs
+Le site met l’accent sur les actions principales, avec des boutons larges adaptés au pouce.
+
+Boutons
+Bouton primaire très vif en bleu ou en dégradé bleu vert.
+Bouton secondaire en contour coloré et fond blanc.
+Bouton urgence en rouge, réservé à la rubrique urgences et secourisme.
+Boutons arrondis, ombre douce, effet pressé au tap.
+
+Badges et étiquettes
+Badges couleur par rubrique, par exemple nutrition en vert, sport en orange, maternité en rose, urgences en rouge, santé mentale en bleu violet.
+Badges nouveauté, tendance, recommandé, exclusif.
+
+Cartes
+Cartes épisodes avec couverture illustrée ou photo, durée, intervenant, tag catégorie, bouton lecture immédiate.
+Cartes intervenants avec photo, spécialité, nombre d’épisodes, bouton poser une question.
+
+5) Mobile first et structure des pages
+L’architecture mobile vise la rapidité et le confort d’usage avec une navigation par onglets.
+
+Navigation mobile
+Barre en bas avec icônes et libellés courts.
+Découvrir, Catégories, Live, Bibliothèque, Intervenants.
+
+Grilles et espacements
+Grille en une colonne avec sections empilées.
+Carrousels horizontaux pour séries, tendances, intervenants, publicités et playlists.
+Zones tactiles larges, espaces généreux, peu de texte par bloc.
+
+Micro interactions
+Animations rapides au scroll, apparition progressive des cartes, transitions douces sur le lecteur.
+
+6) Blocs d’images avec personnes africaines
+Les pages intègrent des sections photo récurrentes pour ancrer le projet dans son audience et renforcer la confiance.
+
+Recommandations photo
+Photos en haute qualité de personnes africaines, prises en contexte réel santé, famille, sport, travail, étude.
+Diversité d’âges et de morphologies, représentation inclusive.
+Alternance portraits et scènes de vie, avec lumière naturelle.
+
+Placement conseillé
+Hero de la page d’accueil avec photo plein écran et un titre fort.
+Bandeaux thématiques par rubrique avec photos et couleur associée.
+Galerie intervenants avec portraits cohérents.
+Blocs témoignages patients avec photo optionnelle et visuel illustré.
+
+7) Carrousel publicitaire intégré
+Un carrousel publicitaire apparaît sur la page d’accueil et dans certaines pages de rubrique. Il respecte l’expérience utilisateur en restant lisible et facilement fermable.
+
+Carrousel publicité mobile
+Format carte horizontale plein large, une image forte, un titre court, un bouton vif.
+Pagination par points, swipe fluide, durée automatique douce, pause au toucher.
+Label sponsorisé visible, séparation nette du contenu éditorial.
+
+Emplacements recommandés
+Sous le bloc tendances.
+Entre deux sections de découverte.
+Dans les pages catégories, une seule insertion après quelques cartes contenus.
+
+Types de contenus publicitaires
+Campagnes prévention santé, partenaires cliniques, assurances santé, produits bien être, événements.
+Auto promotion HEALTHY PAGE, séries exclusives, live radio santé.
+
+8) Gabarits de pages très colorés
+Page d’accueil
+Grand hero avec photo africaine, titre fort, bouton écouter maintenant. Carrousel nouveautés. Carrousel publicitaire. Sections tendances et recommandations. Raccourcis rubriques en tuiles colorées.
+
+Page catégorie
+Bandeau couleur avec illustration. Filtres en chips colorées. Cartes épisodes. Bloc intervenants associés. Un carrousel séries.
+
+Page épisode
+Cover visuelle forte. Lecteur audio dominant. Boutons favoris, télécharger, partager très visibles. Résumé. Points clés en badges. Commentaires. Questions à l’expert.
+
+Page intervenant
+Portrait. Spécialité en badge. Bouton poser une question. Episodes de l’intervenant en liste.
+
+Bibliothèque
+Playlists en tuiles colorées. Téléchargés. Historique. Favoris.
+
+9) Recommandation palette prête à intégrer
+Vous pouvez partir sur ces teintes vives, avec des variantes plus claires pour les fonds.
+
+Bleu #1E5BFF
+Rouge #FF2D2D
+Vert #12C76F
+Orange #FF8A00
+Rose #FF4D8D
+Jaune #FFD400
+Fond clair #F7F9FF
+Texte principal #0B1220
+
+10) Points clés à respecter pour un rendu premium
+Mobile first avec boutons larges et carrousels horizontaux.
+Grands titres et très forte hiérarchie visuelle.
+Icônes colorées par catégorie avec badges.
+Photos de personnes africaines omniprésentes et cohérentes.
+Carrousel publicitaire intégré, étiqueté et discret dans la fréquence.
+Couleurs très vives utilisées pour guider les actions et structurer les rubriques.

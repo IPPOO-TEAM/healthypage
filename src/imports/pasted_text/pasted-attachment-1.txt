@@ -1,0 +1,89 @@
+Architecture rubrique VOYAGE & LOISIRS
+Page d’entrée Voyage & Loisirs
+Cette page met en avant une sélection éditoriale avec des visuels inspirants et des accès directs vers les besoins les plus fréquents. L’utilisateur retrouve Trouver un séjour, Choisir une destination, Réduire le stress, Bouger en douceur, Partir en famille, Partir en senior, Préparer sa santé avant le départ. Un bandeau met en avant les offres flash et les cartes cadeaux disponibles, avec un accès immédiat à l’espace promotions.
+
+Catalogue Séjours Bien‑être
+La page catalogue présente les séjours sous forme de cartes avec objectif du séjour, durée, niveau d’intensité, type d’encadrement, prix indicatif, disponibilités. L’utilisateur peut filtrer par stress, sommeil, détox, post‑partum, senior, remise en forme douce, méditation. Une accroche visible dès le haut de page peut être intégrée avec la formulation Choisissez un séjour qui apaise le mental, relance l’énergie et installe une routine qui tient dans le temps.
+
+Fiche Séjour Bien‑être
+La fiche détaille l’expérience avec un texte immersif, puis des blocs orientés action. L’utilisateur voit ce que vous allez vivre, pour qui ce séjour convient, ce que vous ressentez après, programme jour par jour, hébergement, repas, activités incluses, options, conditions. Un encart de réassurance affiche accompagnement, sécurité, niveau, accès. Un bouton principal Réserver et un bouton secondaire Recevoir le programme renforcent la conversion. Une formulation efficace peut être Un rythme simple, des soins ciblés, un esprit plus léger dès les premiers jours.
+
+Catalogue Voyages thérapeutiques
+Cette page regroupe les cures et séjours de soins avec un tri par thalassothérapie, thermalisme, balnéothérapie, respiration, récupération. Chaque carte présente type de cure, durée recommandée, bénéfices attendus, cadre médical ou paramédical, contre‑indications à vérifier. Une phrase d’orientation peut être Des soins encadrés, un environnement favorable, un programme construit pour votre confort.
+
+Fiche Cure thérapeutique
+La fiche met l’accent sur la clarté et l’adéquation. L’utilisateur retrouve indications, bénéfices, séances incluses, fréquence, bilan d’entrée, suivi, conseils de préparation, ce qu’il faut apporter, rythme de la semaine, questions fréquentes. Un bloc À partager avec votre médecin permet d’exporter un résumé du programme pour validation. Une formulation d’impact peut être Votre cure se construit sur des gestes précis et un suivi structuré, pour une amélioration ressentie et mesurable.
+
+Activités Loisirs et Découvertes
+La page présente des expériences classées par émotions recherchées avec se détendre, se dépenser en douceur, se reconnecter à la nature, s’ouvrir à la culture, respirer mieux. L’utilisateur filtre par durée, niveau et environnement. Une phrase d’accueil peut être Bougez sans vous épuiser, explorez sans vous presser, respirez comme si le temps ralentissait.
+
+Fiche Activité
+La fiche activité affiche niveau, durée, équipement, encadrement, accessibilité, conseils hydratation, points de pause, alternative en cas de fatigue. Un bouton Ajouter à mon séjour et un bouton Réserver l’activité peuvent coexister. Une formulation utile peut être Une activité pensée pour le plaisir et le corps, avec un rythme qui respecte votre énergie.
+
+Conseils Santé pour Voyager
+Cette page regroupe des guides courts et des check‑lists par profil. L’utilisateur accède à Avant le départ, Pendant le trajet, Sur place, Au retour. Des entrées rapides orientent vers grossesse, enfants, senior, mobilité réduite, maladies chroniques, traitements. Une formulation d’impact peut être Votre santé voyage avec vous, préparez-la comme vous préparez vos bagages.
+
+Check‑list santé personnalisée
+L’utilisateur complète un mini formulaire et obtient une liste adaptée avec vaccins à vérifier, ordonnances, traitements, documents, assurance, trousse santé, contacts utiles, prévention. Un bouton Exporter en PDF et un bouton Enregistrer dans mon téléphone renforcent l’usage. Une formulation possible En quelques réponses, votre check‑list devient précise et prête à l’emploi.
+
+Promotions Voyage et Loisirs
+La page promotions met en avant offres flash, packs duo, tarifs famille, réductions partenaires, tickets cadeaux, cartes cadeaux. Un espace Mes avantages centralise les gains, la validité et l’utilisation. Une phrase d’impact peut être Des offres qui déclenchent le départ, des avantages qui font du bien dès la réservation.
+
+Roue de la fortune Voyage et Loisirs
+Une page dédiée présente la roue et la règle. L’utilisateur voit gain garanti selon conditions, probabilités affichées, historique, utiliser mon gain. Une formulation directe peut être Tournez, gagnez, appliquez votre avantage immédiatement sur votre prochaine escapade.
+
+Architecture rubrique URGENCES
+Page d’entrée Urgences
+La page d’entrée affiche trois actions prioritaires en haut d’écran avec Pompiers, Police, Ambulance et SAMU sous forme de grands boutons. Un module Alerte rapide permet d’activer le mode sonore ou silencieux. Un bloc affiche la position actuelle avec un bouton Partager ma localisation. Une formulation d’accueil peut être Un accès immédiat aux secours, des gestes utiles, une position prête à transmettre.
+
+SOS Pompiers
+Cette page met un bouton principal Appeler les Pompiers et un bouton secondaire Partager ma position. Un encart Premières actions propose des étapes courtes adaptées à la situation sélectionnée. L’utilisateur choisit incendie, fumée, brûlure, électrocution, noyade, accident domestique, détresse respiratoire. Une formulation impactante peut être Gagnez des secondes précieuses, protégez la zone, guidez l’intervention.
+
+SOS Police
+La page affiche Appeler la Police et un mode Signalement discret. L’utilisateur peut activer envoi de position, message pré-écrit, contact de confiance, historique des alertes. Un bloc propose une saisie rapide de la situation. Une formulation d’impact peut être Signalez, géolocalisez, alertez sans vous exposer.
+
+SOS Ambulance et SAMU
+La page présente Appeler une Ambulance, Appeler le SAMU selon le pays, avec un écran de signes d’alerte triés par urgence ressentie. L’utilisateur accède à des guides courts sur AVC, infarctus, crise d’asthme, allergie sévère, perte de connaissance, hémorragie, douleur thoracique. Une formulation forte peut être Reconnaître vite, agir juste, transmettre les bonnes informations.
+
+Guides gestes d’urgence
+Une page dédiée regroupe les fiches gestes avec lecture rapide. L’utilisateur retrouve position latérale de sécurité, compression hémorragie, réaction allergique, étouffement, brûlure, malaise. Chaque fiche affiche un bloc À dire au régulateur pour aider à transmettre les éléments importants. Une formulation possible Des gestes simples pour stabiliser la situation avant l’arrivée des secours.
+
+Alerte et Alarme
+Cette page permet de choisir alerte sonore, alerte silencieuse, vibration, mode malaise. L’utilisateur configure les contacts, le message, le partage de position et un déclenchement rapide depuis l’écran verrouillé si l’appareil le permet. Une formulation d’impact peut être Une alerte qui se déclenche vite, une localisation qui se partage sans effort.
+
+Drone zone pilote
+Une page explique la disponibilité du service et permet de faire une demande lorsque le territoire le permet. L’utilisateur renseigne la situation et confirme la position. Un suivi en temps réel affiche demande envoyée, prise en charge, zone de recherche. Une formulation adaptée peut être Localiser plus vite quand le terrain complique tout.
+
+Assistance juridique
+La page propose parler à un juriste, fiches pratiques, dépôt de plainte, violence domestique, accident. L’utilisateur peut générer un mémo de démarches et enregistrer les éléments utiles. Une formulation d’impact peut être Être accompagné, protéger ses droits, avancer étape par étape.
+
+Métiers de l’urgence
+Une page pédagogique présente les rôles et les parcours. L’utilisateur comprend qui intervient, dans quel ordre, pourquoi certaines priorités s’imposent. Une formulation peut être Comprendre l’intervention, mieux coopérer, améliorer la prise en charge.
+
+Architecture rubrique JEUX, CONCOURS ET ANIMATIONS
+Page d’entrée Jeux
+La page d’entrée met en avant trois portes d’accès avec Jouer, Participer, Gagner. L’utilisateur voit les jeux populaires, les concours en cours, les prochains lives et son niveau. Une formulation d’ouverture peut être Apprendre en jouant, progresser en relevant des défis, gagner des récompenses utiles.
+
+Bibliothèque de jeux
+La page affiche des catégories avec quiz santé, premiers secours, nutrition, hygiène, sommeil, anti‑stress, mémoire et cerveau, kids. Chaque jeu présente durée, niveau, objectif, points à gagner. Une formulation impactante peut être Des jeux courts, des réflexes durables, un score qui reflète vos progrès.
+
+Page Jeu
+La page jeu propose un démarrage immédiat avec un tutoriel ultra court. L’utilisateur voit le score, le temps, les corrections pédagogiques, et un bouton Rejouer. Une section Ce que vous retenez affiche deux ou trois repères clés. Une formulation possible Vous jouez, vous mémorisez, vous améliorez vos réflexes.
+
+Concours mensuels
+La page concours affiche thème du mois, règles, dates, récompenses, classement, participer. L’utilisateur peut soumettre une photo, un résultat de défi, une recette, ou répondre à un quiz. Une formulation forte peut être Un défi par mois pour garder le rythme et transformer l’effort en victoire.
+
+Live et événements
+La page live réunit le calendrier, les inscriptions et les replays. L’utilisateur reçoit une notification avant le début et peut poser une question pendant l’événement. Une formulation d’impact peut être Des rendez‑vous qui motivent, des experts qui répondent, une énergie collective.
+
+Espace Kids et Famille
+La page famille propose un parcours adapté et un contrôle parent. L’utilisateur accède à des jeux simples, des histoires audio et des défis en duo. Une formulation possible Des jeux qui amusent et qui installent de bons réflexes dès l’enfance.
+
+Récompenses et boutique avantages
+La page récompenses centralise points, badges, niveau, classements, avantages débloqués. Une boutique interne propose tickets cadeaux, cartes cadeaux, codes partenaires, accès à contenus premium. Une formulation d’impact peut être Chaque action compte, chaque point ouvre un avantage.
+
+Roue de la fortune
+Une page dédiée permet de lancer la roue de la fortune selon les règles. L’utilisateur voit les gains possibles, les conditions, son historique et l’usage immédiat. Une formulation directe peut être Tournez la roue et transformez votre score en récompense.
+
+Flash et promotions
+Une page flash met en avant des offres à durée limitée liées aux jeux et à la communauté. L’utilisateur active une alerte pour être prévenu des prochaines fenêtres. Une formulation efficace peut être Une offre courte, un avantage immédiat, une motivation qui remonte.
