@@ -4,11 +4,20 @@ import { enqueue } from "./offlineQueue";
 
 // Prefer explicit env vars (production deployments) — fall back to the
 // platform-generated values when running inside Figma Make.
-const projectId  = import.meta.env.VITE_SUPABASE_PROJECT_ID  || _projectId;
-const publicAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || _publicAnonKey;
-const fnName     = import.meta.env.VITE_SUPABASE_FN_NAME     || "make-server-7cbeffac";
+//
+// Supports two modes:
+//  1. VITE_SUPABASE_URL  = domaine personnalisé (ex: https://essaisupabase.ippoo-aptdc.com)
+//  2. VITE_SUPABASE_PROJECT_ID = ID projet standard (ex: twdhojynnxfqcgusdses → https://twdhojynnxfqcgusdses.supabase.co)
+const supabaseUrl   = import.meta.env.VITE_SUPABASE_URL as string | undefined;
+const projectId     = import.meta.env.VITE_SUPABASE_PROJECT_ID || _projectId;
+const publicAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY   || _publicAnonKey;
+const fnName        = import.meta.env.VITE_SUPABASE_FN_NAME    || "make-server-7cbeffac";
 
-const BASE = `https://${projectId}.supabase.co/functions/v1/${fnName}`;
+// Si une URL complète est fournie, on l'utilise directement ; sinon on
+// reconstruit l'URL standard Supabase à partir du projectId.
+const BASE = supabaseUrl
+  ? `${supabaseUrl.replace(/\/$/, "")}/functions/v1/${fnName}`
+  : `https://${projectId}.supabase.co/functions/v1/${fnName}`;
 
 /**
  * Runner pour `offlineQueue.flush` — rejoue une mutation persistée.

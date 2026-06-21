@@ -1,0 +1,15 @@
+# Healthy Page – Configuration Supabase CLI
+# Instance : https://essaisupabase.ippoo-aptdc.com
+
+[project]
+# Laisser vide si self-hosted ; remplir avec le project-ref si Supabase cloud
+# project_id = ""
+
+[api]
+# Port local pour le développement (supabase start)
+port = 54321
+
+[functions.make-server-7cbeffac]
+# Pointe vers le répertoire source de la fonction
+# Déployer avec : npx supabase functions deploy make-server-7cbeffac
+verify_jwt = false

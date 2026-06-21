@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 import { Calendar, ChevronLeft, ChevronRight, Plus, Clock, Video, MapPin, X, Link2, Copy, RefreshCw, Check } from 'lucide-react';
 import { api } from '../../components/api';
 import { ImageWithFallback } from '../../components/figma/ImageWithFallback';
-import { projectId, publicAnonKey } from '../../../../utils/supabase/info';
+// Note : l'URL de base Supabase est gérée centralement dans api.ts (support domaine personnalisé)
 
 interface Slot {
   id: string;
@@ -116,11 +116,8 @@ export default function AgendaProScreen({ proId }: Props) {
     try {
       await api.deleteAgendaSlot(proId, id);
       if (slot?.patientId && slot?.rdvId) {
-        await fetch(`https://${projectId}.supabase.co/functions/v1/make-server-7cbeffac/patients/${slot.patientId}/rdv/${slot.rdvId}`, {
-          method: 'PUT',
-          headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${publicAnonKey}` },
-          body: JSON.stringify({ status: 'cancelled' })
-        });
+        // Utilise api.updateRdv pour bénéficier du domaine personnalisé (essaisupabase.ippoo-aptdc.com)
+        await api.updateRdv(slot.patientId, slot.rdvId, { status: 'cancelled' });
       }
     } catch (e) { console.error('delete slot', e); }
   };
