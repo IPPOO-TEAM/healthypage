@@ -190,14 +190,23 @@ export async function ensureBackendPatient(id: string): Promise<string | null> {
       weight: acc.weight,
       profession: acc.profession ?? '',
     };
+    console.log('[ensureBackendPatient] Envoi vers Supabase:', payload);
     const res: any = await api.createPatient(payload);
+    console.log('[ensureBackendPatient] Réponse Supabase:', res);
     const newId = res?.id || res?.patient?.id;
     if (newId) {
       updateAccount(id, { backendId: newId });
+      console.log('[ensureBackendPatient] backendId sauvegardé:', newId);
       return newId;
     }
-  } catch (e) {
-    console.error('ensureBackendPatient failed:', e);
+    console.warn('[ensureBackendPatient] Aucun id retourné par Supabase. Réponse:', res);
+  } catch (e: any) {
+    console.error('[ensureBackendPatient] ÉCHEC envoi Supabase:', {
+      message: e?.message,
+      status: e?.status,
+      payload: e?.payload,
+      isNetwork: e?.isNetwork,
+    });
   }
   return null;
 }
@@ -222,6 +231,12 @@ export const DEMO_CREDENTIALS = {
   password: 'HealthyPage2026',
 };
 
+/**
+ * Injecte uniquement le compte démo (Aïcha Adjovi) si absent.
+ * NE touche PAS aux données localStorage d'un vrai utilisateur.
+ * Les seeds famille/entreprise/favoris ne sont injectés QUE si
+ * l'utilisateur actuellement connecté est bien le compte démo.
+ */
 export function ensureDemoSeed() {
   const list = listAccounts();
   if (list.find((a) => a.id === DEMO_ID)) return;
@@ -252,8 +267,18 @@ export function ensureDemoSeed() {
   };
   list.push(demo);
   saveAccounts(list);
+  // Les données famille/entreprise/favoris fictives sont injectées
+  // uniquement quand le compte démo se connecte (voir seedDemoLocalData).
+}
 
-  // Seed local data stores so the demo account feels populated.
+/**
+ * À appeler UNIQUEMENT après connexion du compte démo.
+ * Injecte les données localStorage fictives pour rendre le compte démo réaliste.
+ */
+export function seedDemoLocalData() {
+  const currentId = ls.get(CURRENT_KEY);
+  if (currentId !== DEMO_ID) return; // Sécurité : ne pas polluer un vrai compte
+
   const SEED_VERSION = '2';
   if (ls.get('healthy-page:famille-seed-v') !== SEED_VERSION) {
     ls.del('healthy-page:famille');

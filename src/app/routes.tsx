@@ -216,7 +216,18 @@ function usePatientNavigate() {
 
 // ---------- Root gate (role + onboarding) ----------
 function RootIndex() {
-  useEffect(() => { ensureDemoSeed(); }, []);
+  useEffect(() => {
+    ensureDemoSeed();
+    // Nettoyer les données démo fictives si l'user connecté n'est PAS le compte démo.
+    // Cela corrige les utilisateurs qui avaient des données famille/entreprise pré-remplies.
+    const currentId = ls.get('healthy-page:current-account-id');
+    if (currentId && currentId !== 'acc_demo_aicha_adjovi') {
+      ls.del('healthy-page:famille');
+      ls.del('healthy-page:famille-seed-v');
+      ls.del('healthy-page:entreprise');
+      ls.del('healthy-page:favorites');
+    }
+  }, []);
   const role = ls.get('healthy-page:role') as Role | null;
   const { open, user } = useUniversalAuth();
   const [splashDone, setSplashDone] = useState<boolean>(() => ls.get('healthy-page:splash-seen') === '1');
