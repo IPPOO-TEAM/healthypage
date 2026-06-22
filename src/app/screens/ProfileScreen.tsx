@@ -31,6 +31,7 @@ import { useFavorites } from '../components/useFavorites';
 import { api } from '../components/api';
 import { getPatientId } from '../components/usePatientId';
 import { isDemoPatient } from '../components/demo';
+import { getCurrentAccount } from '../components/accounts';
 
 interface ProfileScreenProps {
   onNavigate?: (screen: string) => void;
@@ -51,12 +52,41 @@ export default function ProfileScreen({ onNavigate }: ProfileScreenProps = {}) {
   const [emergency, setEmergency] = useState<any>(null);
 
   useEffect(() => {
+    // 1. Lecture immédiate depuis le compte local (toujours disponible)
+    const localAcc = getCurrentAccount();
+    if (localAcc) {
+      setPatient({
+        id: localAcc.backendId || localAcc.id,
+        firstName: localAcc.firstName,
+        lastName: localAcc.lastName,
+        email: localAcc.email,
+        phone: localAcc.phone,
+        dob: localAcc.dob,
+        gender: localAcc.sex,
+        address: localAcc.address,
+        bloodType: localAcc.bloodType,
+        height: localAcc.height,
+        weight: localAcc.weight,
+      });
+      if (localAcc.emName || localAcc.emPhone) {
+        setEmergency({
+          name: localAcc.emName,
+          relation: localAcc.emRelation,
+          phone: localAcc.emPhone,
+        });
+      }
+    }
+    // 2. Synchronisation en arrière-plan depuis Supabase (si disponible)
     const pid = getPatientId();
-    if (!pid) return;
+    if (!pid || pid.startsWith('acc_')) return; // pas encore synchronisé
     api.getPatient(pid).then((res: any) => {
-      setPatient(res?.patient ?? null);
-      setEmergency(res?.emergency ?? null);
-    }).catch(() => {});
+      if (res?.patient) {
+        setPatient(res.patient);
+        setEmergency(res.emergency ?? null);
+      }
+    }).catch(() => {
+      // Silencieux : on garde les données locales si le réseau est indisponible
+    });
   }, []);
 
   const fullName = patient ? `${patient.firstName ?? ''} ${patient.lastName ?? ''}`.trim() : '';

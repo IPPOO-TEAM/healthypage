@@ -145,7 +145,13 @@ export function createAccount(input: Omit<PatientAccount, 'id' | 'passwordHash' 
 export function setCurrentAccount(id: string) {
   ls.set(CURRENT_KEY, id);
   const acc = getAccount(id);
-  ls.set('healthy-page:patientId', acc?.backendId || id);
+  // N'utiliser patientId que si c'est un vrai ID Supabase (pas un ID local acc_)
+  // Pour les nouveaux comptes, patientId sera mis à jour après ensureBackendPatient
+  if (acc?.backendId) {
+    ls.set('healthy-page:patientId', acc.backendId);
+  } else {
+    ls.del('healthy-page:patientId'); // sera rempli après sync Supabase
+  }
   ls.set('healthy-page:role', 'patient');
   const now = Date.now();
   writeSession({ loginAt: now, lastActivityAt: now });
