@@ -83,7 +83,8 @@ out/
 
 # Nuxt.js build images
 .nuxt/
-dist/
+# dist/ intentionally tracked for Cloudflare deployment
+# dist/
 
 # Gatsby files
 .cache/
